@@ -3,7 +3,6 @@ const router = express.Router();
 
 const {index, services, diseños} = require('../controllers/mainController');
 
-const logMiddleware = require("../middlewares/userLogs")
 
 router.get('/', index)
 router.get("/services", services)
