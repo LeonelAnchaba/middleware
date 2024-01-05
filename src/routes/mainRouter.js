@@ -7,6 +7,5 @@ const logMiddleware = require("../middlewares/userLogs")
 
 router.get('/', index)
 
-
 module.exports = router;
 
