@@ -1,6 +1,10 @@
 const express = require('express');
 const router = express.Router();
 
-// router.get('/:users', userAdmin, metodo)
+const {indexAdmin} = require('../controllers/adminController');
+
+const {userAdmin} = require('../middlewares/userAdmin');
+
+router.get('/', userAdmin, indexAdmin);
 
 module.exports = router;
