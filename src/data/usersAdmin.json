@@ -1,0 +1,22 @@
+[
+    {
+        "name":"Ada",
+        "category":"senior",
+        "age":"35"
+    },
+    {
+        "name":"greta",
+        "category":"junior",
+        "age":"25"
+    },
+    {
+        "name":"VIN",
+        "category":"junior",
+        "age":"20"
+    },
+    {
+        "name":"Tim",
+        "category":"semisenior",
+        "age":"30"
+    }
+]
