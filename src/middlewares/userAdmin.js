@@ -13,9 +13,10 @@ function userAdmin (req,res,next) {
     const userValid = usersList.find(element => element.name.toLowerCase()==user.toLowerCase());
     if (!userValid || userValid == undefined) {
         const msj = 'No tiene los privilegios para ingresar';
-        res.render('errorAdmin',{msj})
-    }
-    next();
+         res.render('errorAdmin',{msj})
+    } else {
+        next();
+    }  
 }
 
 module.exports = {userAdmin,capitalCase};
